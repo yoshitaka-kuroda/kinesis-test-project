@@ -4,7 +4,7 @@ Terraform を使い、AWS 上に最小構成の Kinesis Data Stream を作成・
 ---
 
 ## ディレクトリ構成
-
+```
 kinesis-test-project/
 ├── environments/ # 環境ごとの Terraform 実行用ファイルを格納
 │ └── dev/
@@ -19,7 +19,7 @@ kinesis-test-project/
 │ └── variables.tf # stream_name, shard_count, retention_period などの変数定義
 ├── .gitignore # Git 除外ファイル
 └── README.md # このファイル
-
+```
 yaml
 コピーする
 編集する
