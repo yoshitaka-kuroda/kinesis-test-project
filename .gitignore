@@ -1,0 +1,18 @@
+.gitinogre
+
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.log
+*.backup
+.terraform.lock.hcl
+
+# VSCode settings
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
